@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Open+Sans&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Open+Sans&family=Ubuntu&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    background-color: black;
+}
+
+nav {
+
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+.nav ul {
+    margin: 10px;
+    border-radius: 1px;
+    align-items: center;
+    list-style-type: none;
+    color: white;
+    background-color: rgb(18, 18, 18);
+    border-color: rgb(18, 18, 18);
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+
+
+
+.brand {
+    /* background-color: rgb(93, 88, 88); */
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+
+}
+
+.icon {
+    /* background-color: rgb(87, 82, 82); */
+    border-radius: 50%;
+    padding: 0;
+
+    /* border-radius: 50%; */
+    width: 40px;
+    padding: 8px;
+
+}
+
+.li1 {
+    display: flex;
+
+}
+
+.icon1 {
+
+    width: 30px;
+    padding: 8px 0 0 13px;
+
+}
+
+.home {
+    padding: 16px 0 0 20px;
+    font-size: larger;
+}
+
+.li2 {
+    display: flex;
+    padding-top: 15px;
+}
+
+.icon2 {
+    width: 50px;
+    padding-left: 5px;
+}
+
+.search {
+    padding: 16px 0 0 9px;
+    font-size: larger;
+}
+
+.nav2 {
+    margin: 10px;
+    background-color: rgb(18, 18, 18);
+    border-color: rgb(18, 18, 18);
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    padding: 0 12px;
+}
+
+.nav2 ul {
+    list-style-type: none;
+    color: white;
+}
+
+.yl {
+    font-size: x-large;
+    padding: 20px 0 20px 20px;
+}
+
+.cyfp {
+    background-color: rgb(43, 42, 42);
+    border-color: rgb(18, 18, 18);
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 20px 0 20px 20px;
+    font-size: larger;
+    font-weight: 1000;
+}
+
+.cyfp .cyfp2 {
+    background-color: rgb(43, 42, 42);
+    padding: 10px 0 20px 3px;
+    font-size: large;
+    font-weight: 100;
+}
+
+.nav2li2 ul {
+    display: flex;
+
+}
+
+.nav2li2 ul li {
+    padding: 45px 5px 10px 20px;
+    font-size: small;
+
+}
+
+.nav2li3 ul {
+    display: flex;
+
+}
+
+.nav2li3 ul li {
+    padding: 10px 5px 10px 20px;
+    font-size: small;
+
+}
+
+.nav2li4 ul li {
+    padding: 10px 5px 10px 18px;
+    font-size: large;
+
+}
+
+.nav2li5 {
+    padding: 45px 0 50px 20px;
+
+}
+
+.nav2li5 span {
+    font-size: large;
+    font-weight: bold;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+
+}
